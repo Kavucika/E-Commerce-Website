@@ -1,0 +1,55 @@
+/* OrdersStyles.css */
+
+.orders-container {
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.orders-title {
+  margin-bottom: 2rem;
+  color: #ff007f;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.order-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(255, 0, 128, 0.2);
+}
+
+.order-card h3 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.order-card p {
+  margin: 0.2rem 0;
+  color: #ccc;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #333;
+  padding: 1rem 0;
+}
+
+.order-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 1rem;
+  border-radius: 8px;
+  background-color: #2c2c2c;
+}
+
+.item-details p {
+  margin: 2px 0;
+  font-size: 14px;
+}
